@@ -1,0 +1,145 @@
+/* link_fonts-inicia */
+@font-face{
+font-family: 'CrimsonText';
+src: url(../fonts/CrimsonText-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'OpenSansCondensed';
+    src: url(../fonts/OpenSansCondensed-Light.ttf);
+    }
+/* link_fonts-termina */
+
+/* ------------------------- */
+
+body {
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* sobremim-inicia */
+
+#topo{
+    background-color: #851944;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    margin: 0%;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+#topo .titulo{
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, 'OpenSansCondensed', sans-serif;
+    font-size: 60px;
+    padding: 5px;
+}
+
+
+p{
+    font-family: 'CrimsonText','Times New Roman', serif;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+#sobremim{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+#sobremim a{
+    color: darkblue;
+    font-family: 'CrimsonText','Times New Roman', serif;
+}
+
+#sobremim h2{
+font-family: 'OpenSansCondensed', Arial, sans-serif;
+font-size: 30px;
+}
+
+#sobremim .quote{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    border: 10px rgb(180, 180, 180) solid;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    
+}
+
+#sobremim .quote p{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+/* sobremim-termina */
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* menu-inicia */
+#menu{
+    background-color: #3C1D3D;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#menu .texto, a{
+    font-family: 'OpenSansCondensed', Arial, sans-serif;
+    color: #F2FFFC;
+    text-align: center;
+}
+
+#menu h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#menu .img{
+text-align: center;
+margin-top: 20px;
+}
+
+
+/* menu-termina */
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* footer-inicia */
+#footer{
+    background-color: rgb(0, 0, 0)
+}
+
+
+#footer .texto{
+    color: rgb(255, 255, 255)
+}
+/* footer-termina */
+
+.links{
+    text-decoration: none
+}
