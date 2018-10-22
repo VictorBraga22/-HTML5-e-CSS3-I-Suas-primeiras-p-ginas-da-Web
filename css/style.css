@@ -10,10 +10,27 @@ src: url(../fonts/CrimsonText-Regular.ttf);
     }
 /* link_fonts-termina */
 
-/* ------------------------- */
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* tags-inicia */
+
+html{
+    font-size: 100%;
+}
+
 
 body {
     line-height: 1.5;
+
+}
+
+p{
+    font-family: 'CrimsonText','Times New Roman', serif;
+    padding: 0.5em;
+    font-size: 20px;
 }
 
 strong {
@@ -24,37 +41,45 @@ em {
     font-style: italic;
 }
 
-/* sobremim-inicia */
+/* tags-termina */
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
 
 #topo{
     background-color: #851944;
-    border-bottom: 10px solid black;
-    border-right: 10px solid black;
+    border-bottom: 0.5em solid black;
     margin: 0%;
-    height: 100px;
-    margin-bottom: 40px;
+    height: 6em; 
+    padding: 1em;
+    margin-bottom: 2em;
 }
 
 #topo .titulo{
     text-align: center;
     color: #ffffff;
     font-family: Arial, 'OpenSansCondensed', sans-serif;
-    font-size: 60px;
-    padding: 5px;
+    font-size: 3em;
+    padding: 0.25em;
+    text-transform: uppercase;
+
 }
 
+/* ----------------------------------------------------------------------------------------------------- */
 
-p{
-    font-family: 'CrimsonText','Times New Roman', serif;
-    padding: 10px;
-    margin: 10px 0;
-}
-
+/* sobremim-inicia */
 
 #sobremim{
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
+    margin-bottom: 5em;
+    margin-left: 10%;
+    float: left;
+    width: 60%;
+    clear: left;
+    box-sizing: border-box;
 }
 
 #sobremim a{
@@ -63,24 +88,36 @@ p{
 }
 
 #sobremim h2{
-font-family: 'OpenSansCondensed', Arial, sans-serif;
-font-size: 30px;
+font-family:  Arial, 'OpenSansCondensed', sans-serif;
+font-size: 2.5em;
+clear: both;
 }
 
-#sobremim .quote{
+#sobremim blockquote{
     background-color: rgb(230, 230, 230);
     padding: 20px;
-    border: 10px rgb(180, 180, 180) solid;
-    width: 250px;
+    border: 0.6em rgb(180, 180, 180) solid;
+    width: 20em;
     box-sizing: border-box;
-    margin: 20px 40px;
+    margin: 1.25em 2.5em;
+}
+
+#sobremim blockquote p{
+    margin-bottom: 1em;
+    margin-top: 0.3em;
+}
+
+#sobremim .quotefiat{
+    float: right;
+    margin-right: 0em;
+}
+
+#sobremim .quotepetrobras{
+    float: left;
+    margin-left: 0em;
     
 }
 
-#sobremim .quote p{
-    margin-bottom: 15px;
-    margin-top: 5px;
-}
 /* sobremim-termina */
 
 
@@ -94,15 +131,39 @@ font-size: 30px;
 
 /* menu-inicia */
 #menu{
+    float: right;
+    clear: right;
+    box-sizing: border-box;
+    position: fixed;right: 0;top: 0;
+    
+}
+#menu aside{
     background-color: #3C1D3D;
-    width: 500px;
+    width: 20%;
+    box-sizing: border-box;
+    padding-top: 15px;
     margin-left: auto;
     margin-right: auto;
+    width: 210px;
+    height: 280px;
+    position: relative;
+    top: 250px;
+    border-bottom: black solid 10px;
+    border-left: black solid 10px;
 }
 
+#menu .foto{
+    border-bottom: black solid 10px;
+    height: 250px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-left: black solid 10px;
+}
 
 #menu .texto, a{
-    font-family: 'OpenSansCondensed', Arial, sans-serif;
+    font-family: Arial, 'OpenSansCondensed', sans-serif;
     color: #F2FFFC;
     text-align: center;
 }
@@ -131,7 +192,11 @@ margin-top: 20px;
 
 /* footer-inicia */
 #footer{
-    background-color: rgb(0, 0, 0)
+    background-color: rgb(0, 0, 0);
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 
@@ -140,6 +205,38 @@ margin-top: 20px;
 }
 /* footer-termina */
 
-.links{
-    text-decoration: none
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* blog-inicia */
+#blog .links{
+    color: #9e0f0f;
+    font-family: 'CrimsonText','Times New Roman', serif;
+    padding: 3px;
+
+}
+
+
+#blog .leiamais{
+    color: #9e0f0f;
+    font-size: 30px;
+    font-family: Arial, 'OpenSansCondensed', sans-serif;
+    text-align: center
+}
+
+#blog{
+    border-bottom: rgb(110, 110, 110) solid 1px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+#blog h2{
+    font-family: Arial, 'OpenSansCondensed', sans-serif;
+    font-size: 30px;
 }
